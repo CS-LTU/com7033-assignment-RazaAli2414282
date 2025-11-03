@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Stroke Prediction{% endblock %}
+{% block content %}
+<h2>Stroke Prediction</h2>
+
+<form method="POST">
+    {{ form.hidden_tag() }}
+    
+    {{ form.gender.label(class="form-label") }}
+    {{ form.gender(class="form-select") }}
+
+    {{ form.age.label(class="form-label") }}
+    {{ form.age(class="form-control") }}
+
+    {{ form.hypertension.label(class="form-label") }}
+    {{ form.hypertension(class="form-select") }}
+
+    {{ form.heart_disease.label(class="form-label") }}
+    {{ form.heart_disease(class="form-select") }}
+
+    {{ form.ever_married.label(class="form-label") }}
+    {{ form.ever_married(class="form-select") }}
+
+    {{ form.work_type.label(class="form-label") }}
+    {{ form.work_type(class="form-select") }}
+
+    {{ form.Residence_type.label(class="form-label") }}
+    {{ form.Residence_type(class="form-select") }}
+
+    {{ form.avg_glucose_level.label(class="form-label") }}
+    {{ form.avg_glucose_level(class="form-control") }}
+
+    {{ form.bmi.label(class="form-label") }}
+    {{ form.bmi(class="form-control") }}
+
+    {{ form.smoking_status.label(class="form-label") }}
+    {{ form.smoking_status(class="form-select") }}
+
+    {{ form.submit(class="btn btn-success") }}
+</form>
+
+{% if prediction %}
+<h3>Prediction Result: {{ prediction }}</h3>
+{% endif %}
+{% endblock %}
