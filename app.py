@@ -97,6 +97,16 @@ def logout():
     flash('Logged out successfully.', 'info')
     return redirect(url_for('login'))
 
+import joblib
+
+# Load model and encoders
+model = joblib.load('stroke_model.pkl')
+le_gender = joblib.load('le_gender.pkl')
+le_ever_married = joblib.load('le_ever_married.pkl')
+le_work_type = joblib.load('le_work_type.pkl')
+le_residence = joblib.load('le_residence.pkl')
+le_smoking = joblib.load('le_smoking.pkl')
+
 @app.route("/predict", methods=["GET", "POST"])
 @login_required
 def predict():
@@ -104,15 +114,23 @@ def predict():
     prediction = None
 
     if form.validate_on_submit():
-        # Dummy prediction logic
-        age = form.age.data
-        glucose = form.avg_glucose_level.data
-        bmi = form.bmi.data
+        # Collect input values
+        data = {
+            'gender': le_gender.transform([form.gender.data])[0],
+            'age': form.age.data,
+            'hypertension': int(form.hypertension.data),
+            'heart_disease': int(form.heart_disease.data),
+            'ever_married': le_ever_married.transform([form.ever_married.data])[0],
+            'work_type': le_work_type.transform([form.work_type.data])[0],
+            'Residence_type': le_residence.transform([form.Residence_type.data])[0],
+            'avg_glucose_level': form.avg_glucose_level.data,
+            'bmi': form.bmi.data,
+            'smoking_status': le_smoking.transform([form.smoking_status.data])[0]
+        }
 
-        if age > 60 or glucose > 150 or bmi > 30:
-            prediction = "High Risk of Stroke 😟"
-        else:
-            prediction = "Low Risk of Stroke 🙂"
+        # Predict
+        result = model.predict([list(data.values())])[0]
+        prediction = "High Risk of Stroke 😟" if result == 1 else "Low Risk of Stroke 🙂"
 
     return render_template("predict.html", form=form, prediction=prediction)
 
