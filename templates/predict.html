@@ -1,45 +1,35 @@
-{% extends "base.html" %}
-{% block title %}Stroke Prediction{% endblock %}
-{% block content %}
-<h2>Stroke Prediction</h2>
+@app.route("/predict", methods=["GET", "POST"])
+@login_required
+def predict():
+    form = StrokeForm()
+    prediction = None
 
-<form method="POST">
-    {{ form.hidden_tag() }}
-    
-    {{ form.gender.label(class="form-label") }}
-    {{ form.gender(class="form-select") }}
+    if form.validate_on_submit():
+        # Dummy prediction logic
+        age = form.age.data
+        glucose = form.avg_glucose_level.data
+        bmi = form.bmi.data
 
-    {{ form.age.label(class="form-label") }}
-    {{ form.age(class="form-control") }}
+        if age > 60 or glucose > 150 or bmi > 30:
+            prediction = "High Risk of Stroke 😟"
+        else:
+            prediction = "Low Risk of Stroke 🙂"
 
-    {{ form.hypertension.label(class="form-label") }}
-    {{ form.hypertension(class="form-select") }}
+        # Save patient data to MongoDB
+        patient_data = {
+            "user_id": current_user.id,
+            "gender": form.gender.data,
+            "age": age,
+            "hypertension": form.hypertension.data,
+            "heart_disease": form.heart_disease.data,
+            "ever_married": form.ever_married.data,
+            "work_type": form.work_type.data,
+            "residence_type": form.Residence_type.data,
+            "avg_glucose_level": glucose,
+            "bmi": bmi,
+            "smoking_status": form.smoking_status.data,
+            "prediction": prediction
+        }
+        patients_collection.insert_one(patient_data)
 
-    {{ form.heart_disease.label(class="form-label") }}
-    {{ form.heart_disease(class="form-select") }}
-
-    {{ form.ever_married.label(class="form-label") }}
-    {{ form.ever_married(class="form-select") }}
-
-    {{ form.work_type.label(class="form-label") }}
-    {{ form.work_type(class="form-select") }}
-
-    {{ form.Residence_type.label(class="form-label") }}
-    {{ form.Residence_type(class="form-select") }}
-
-    {{ form.avg_glucose_level.label(class="form-label") }}
-    {{ form.avg_glucose_level(class="form-control") }}
-
-    {{ form.bmi.label(class="form-label") }}
-    {{ form.bmi(class="form-control") }}
-
-    {{ form.smoking_status.label(class="form-label") }}
-    {{ form.smoking_status(class="form-select") }}
-
-    {{ form.submit(class="btn btn-success") }}
-</form>
-
-{% if prediction %}
-<h3>Prediction Result: {{ prediction }}</h3>
-{% endif %}
-{% endblock %}
+    return render_template("predict.html", form=form, prediction=prediction)
