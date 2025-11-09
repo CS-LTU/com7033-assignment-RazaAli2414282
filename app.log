@@ -1,0 +1,568 @@
+2025-11-09 01:50:21,980 INFO werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 01:50:21,980 INFO werkzeug - [33mPress CTRL+C to quit[0m
+2025-11-09 01:50:21,980 INFO werkzeug -  * Restarting with stat
+2025-11-09 01:50:23,019 WARNING werkzeug -  * Debugger is active!
+2025-11-09 01:50:23,037 INFO werkzeug -  * Debugger PIN: 572-073-155
+2025-11-09 01:51:42,308 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:51:42] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-11-09 01:51:42,518 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:51:42] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-09 01:51:42,531 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:51:42] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-09 01:51:42,594 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:51:42] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=lF91zHmewh0HCmuSnxI4 HTTP/1.1" 200 -
+2025-11-09 01:51:42,629 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:51:42] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-09 01:52:03,409 INFO werkzeug -  * Detected change in 'C:\\Users\\Raza Ali\\stroke-flask-app\\app.py', reloading
+2025-11-09 01:52:04,020 INFO werkzeug -  * Restarting with stat
+2025-11-09 01:52:05,186 WARNING werkzeug -  * Debugger is active!
+2025-11-09 01:52:05,190 INFO werkzeug -  * Debugger PIN: 572-073-155
+2025-11-09 01:52:19,104 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:52:19] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2025-11-09 01:52:19,274 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:52:19] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-09 01:52:19,276 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:52:19] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-09 01:52:19,341 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:52:19] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=MtmQmZPo8Du1sm1z9ylK HTTP/1.1" 200 -
+2025-11-09 01:52:19,372 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:52:19] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-09 01:56:48,986 INFO werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 01:56:48,986 INFO werkzeug - [33mPress CTRL+C to quit[0m
+2025-11-09 01:56:48,986 INFO werkzeug -  * Restarting with stat
+2025-11-09 01:56:50,051 WARNING werkzeug -  * Debugger is active!
+2025-11-09 01:56:50,051 INFO werkzeug -  * Debugger PIN: 572-073-155
+2025-11-09 01:56:56,262 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:56:56] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-11-09 01:56:56,408 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:56:56] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-09 01:56:56,410 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:56:56] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-09 01:56:56,440 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:56:56] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=I0pcYwvDQPhNU1Gn1Bq2 HTTP/1.1" 200 -
+2025-11-09 01:56:58,347 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:56:58] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-11-09 01:56:58,378 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:56:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-09 01:56:58,379 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:56:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-09 01:56:58,390 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:56:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=I0pcYwvDQPhNU1Gn1Bq2 HTTP/1.1[0m" 304 -
+2025-11-09 01:56:58,415 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:56:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-09 01:57:02,907 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:57:02] "GET /register HTTP/1.1" 200 -
+2025-11-09 01:57:02,993 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:57:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-09 01:57:21,557 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:57:21] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-11-09 01:57:21,592 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:57:21] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-09 01:57:21,593 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:57:21] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-09 01:57:21,603 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:57:21] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=I0pcYwvDQPhNU1Gn1Bq2 HTTP/1.1[0m" 304 -
+2025-11-09 01:57:41,901 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:57:41] "[32mGET /patients HTTP/1.1[0m" 302 -
+2025-11-09 01:57:41,940 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:57:41] "[35m[1mGET /login?next=/patients HTTP/1.1[0m" 500 -
+2025-11-09 01:57:41,962 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:57:41] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-09 01:57:41,968 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:57:41] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-09 01:57:41,989 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:57:41] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=I0pcYwvDQPhNU1Gn1Bq2 HTTP/1.1[0m" 304 -
+2025-11-09 01:58:05,465 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:58:05] "[33mGET /patients_add_edit HTTP/1.1[0m" 404 -
+2025-11-09 01:59:35,831 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:59:35] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-11-09 01:59:35,855 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:59:35] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-09 01:59:35,855 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:59:35] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-09 01:59:35,873 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:59:35] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=I0pcYwvDQPhNU1Gn1Bq2 HTTP/1.1[0m" 304 -
+2025-11-09 01:59:35,898 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:59:35] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-09 01:59:59,984 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 01:59:59] "GET /login HTTP/1.1" 200 -
+2025-11-09 02:00:09,666 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:00:09] "GET / HTTP/1.1" 200 -
+2025-11-09 02:00:12,254 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:00:12] "[32mGET /patients HTTP/1.1[0m" 302 -
+2025-11-09 02:00:12,264 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:00:12] "GET /login?next=/patients HTTP/1.1" 200 -
+2025-11-09 02:00:16,191 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:00:16] "GET /login HTTP/1.1" 200 -
+2025-11-09 02:00:48,093 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:00:48] "GET /login HTTP/1.1" 200 -
+2025-11-09 02:00:59,756 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:00:59] "[32mGET /patients HTTP/1.1[0m" 302 -
+2025-11-09 02:00:59,767 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:00:59] "GET /login?next=/patients HTTP/1.1" 200 -
+2025-11-09 02:01:02,705 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:01:02] "[32mGET /predict HTTP/1.1[0m" 302 -
+2025-11-09 02:01:02,714 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:01:02] "GET /login?next=/predict HTTP/1.1" 200 -
+2025-11-09 02:01:05,451 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:01:05] "GET / HTTP/1.1" 200 -
+2025-11-09 02:01:06,960 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:01:06] "[32mGET /patients HTTP/1.1[0m" 302 -
+2025-11-09 02:01:06,969 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:01:06] "GET /login?next=/patients HTTP/1.1" 200 -
+2025-11-09 02:01:08,141 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:01:08] "[32mGET /predict HTTP/1.1[0m" 302 -
+2025-11-09 02:01:08,148 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:01:08] "GET /login?next=/predict HTTP/1.1" 200 -
+2025-11-09 02:01:23,791 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:01:23] "[32mGET /patients HTTP/1.1[0m" 302 -
+2025-11-09 02:01:23,802 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:01:23] "GET /login?next=/patients HTTP/1.1" 200 -
+2025-11-09 02:01:30,212 INFO root - User logged in: Ali
+2025-11-09 02:01:30,213 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:01:30] "[32mPOST /login?next=/patients HTTP/1.1[0m" 302 -
+2025-11-09 02:01:35,225 INFO root - User logged in: Ali
+2025-11-09 02:01:35,226 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:01:35] "[32mPOST /login?next=/patients HTTP/1.1[0m" 302 -
+2025-11-09 02:01:51,975 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:01:51] "GET /login HTTP/1.1" 200 -
+2025-11-09 02:01:58,781 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:01:58] "POST /login HTTP/1.1" 200 -
+2025-11-09 02:02:00,493 ERROR root - Error listing patients: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff4e2a77d7e2b44434527, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "C:\Users\Raza Ali\stroke-flask-app\app.py", line 202, in list_patients
+    docs = list(mongo_patients.find({"user_id": current_user.id}))
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1289, in __next__
+    return self.next()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1265, in next
+    if len(self._data) or self._refresh():
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2047, in _retryable_read
+    return self._retry_internal(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2014, in _retry_internal
+    ).run()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2765, in run
+    return self._read() if self._is_read else self._write()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2910, in _read
+    self._server = self._get_server()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2858, in _get_server
+    return self._client._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff4e2a77d7e2b44434527, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-11-09 02:02:00,559 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:02:00] "GET /patients HTTP/1.1" 200 -
+2025-11-09 02:02:05,082 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:02:05] "POST /login HTTP/1.1" 200 -
+2025-11-09 02:02:05,547 ERROR root - Error listing patients: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff4e2a77d7e2b44434527, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "C:\Users\Raza Ali\stroke-flask-app\app.py", line 202, in list_patients
+    docs = list(mongo_patients.find({"user_id": current_user.id}))
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1289, in __next__
+    return self.next()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1265, in next
+    if len(self._data) or self._refresh():
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2047, in _retryable_read
+    return self._retry_internal(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2014, in _retry_internal
+    ).run()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2765, in run
+    return self._read() if self._is_read else self._write()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2910, in _read
+    self._server = self._get_server()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2858, in _get_server
+    return self._client._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff4e2a77d7e2b44434527, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-11-09 02:02:05,547 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:02:05] "GET /patients HTTP/1.1" 200 -
+2025-11-09 02:02:14,734 INFO root - User logged in: Ali
+2025-11-09 02:02:14,734 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:02:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-09 02:02:16,383 INFO root - User logged in: Ali
+2025-11-09 02:02:16,383 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:02:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-09 02:02:45,206 ERROR root - Error listing patients: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff4e2a77d7e2b44434527, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "C:\Users\Raza Ali\stroke-flask-app\app.py", line 202, in list_patients
+    docs = list(mongo_patients.find({"user_id": current_user.id}))
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1289, in __next__
+    return self.next()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1265, in next
+    if len(self._data) or self._refresh():
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2047, in _retryable_read
+    return self._retry_internal(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2014, in _retry_internal
+    ).run()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2765, in run
+    return self._read() if self._is_read else self._write()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2910, in _read
+    self._server = self._get_server()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2858, in _get_server
+    return self._client._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff4e2a77d7e2b44434527, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-11-09 02:02:45,206 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:02:45] "GET /patients HTTP/1.1" 200 -
+2025-11-09 02:02:46,738 ERROR root - Error listing patients: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff4e2a77d7e2b44434527, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "C:\Users\Raza Ali\stroke-flask-app\app.py", line 202, in list_patients
+    docs = list(mongo_patients.find({"user_id": current_user.id}))
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1289, in __next__
+    return self.next()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1265, in next
+    if len(self._data) or self._refresh():
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2047, in _retryable_read
+    return self._retry_internal(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2014, in _retry_internal
+    ).run()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2765, in run
+    return self._read() if self._is_read else self._write()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2910, in _read
+    self._server = self._get_server()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2858, in _get_server
+    return self._client._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff4e2a77d7e2b44434527, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-11-09 02:02:46,738 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:02:46] "GET /patients HTTP/1.1" 200 -
+2025-11-09 02:03:41,514 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:03:41] "[35m[1mGET /patients/add HTTP/1.1[0m" 500 -
+2025-11-09 02:03:41,537 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:03:41] "[36mGET /patients/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-09 02:03:41,544 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:03:41] "[36mGET /patients/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-09 02:03:41,553 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:03:41] "GET /patients/add?__debugger__=yes&cmd=resource&f=console.png&s=I0pcYwvDQPhNU1Gn1Bq2 HTTP/1.1" 200 -
+2025-11-09 02:03:41,590 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:03:41] "[36mGET /patients/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-09 02:08:31,815 ERROR root - Error listing patients: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff4e2a77d7e2b44434527, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "C:\Users\Raza Ali\stroke-flask-app\app.py", line 202, in list_patients
+    docs = list(mongo_patients.find({"user_id": current_user.id}))
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1289, in __next__
+    return self.next()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1265, in next
+    if len(self._data) or self._refresh():
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2047, in _retryable_read
+    return self._retry_internal(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2014, in _retry_internal
+    ).run()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2765, in run
+    return self._read() if self._is_read else self._write()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2910, in _read
+    self._server = self._get_server()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2858, in _get_server
+    return self._client._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff4e2a77d7e2b44434527, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-11-09 02:08:31,815 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:08:31] "GET /patients HTTP/1.1" 200 -
+2025-11-09 02:11:56,149 INFO werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 02:11:56,149 INFO werkzeug - [33mPress CTRL+C to quit[0m
+2025-11-09 02:11:56,149 INFO werkzeug -  * Restarting with stat
+2025-11-09 02:11:57,613 WARNING werkzeug -  * Debugger is active!
+2025-11-09 02:11:57,613 INFO werkzeug -  * Debugger PIN: 572-073-155
+2025-11-09 02:12:13,066 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:12:13] "GET /login HTTP/1.1" 200 -
+2025-11-09 02:12:27,584 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:12:27] "GET /register HTTP/1.1" 200 -
+2025-11-09 02:12:36,916 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:12:36] "GET /login HTTP/1.1" 200 -
+2025-11-09 02:12:43,637 INFO root - User logged in: Ali
+2025-11-09 02:12:43,637 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:12:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-09 02:12:50,017 ERROR root - Error listing patients: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff86d3269de40e31ddba4, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "C:\Users\Raza Ali\stroke-flask-app\app.py", line 202, in list_patients
+    docs = list(mongo_patients.find({"user_id": current_user.id}))
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1289, in __next__
+    return self.next()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1265, in next
+    if len(self._data) or self._refresh():
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2047, in _retryable_read
+    return self._retry_internal(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2014, in _retry_internal
+    ).run()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2765, in run
+    return self._read() if self._is_read else self._write()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2910, in _read
+    self._server = self._get_server()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2858, in _get_server
+    return self._client._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff86d3269de40e31ddba4, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-11-09 02:12:50,051 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:12:50] "GET /patients HTTP/1.1" 200 -
+2025-11-09 02:13:13,974 ERROR root - Error listing patients: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff86d3269de40e31ddba4, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "C:\Users\Raza Ali\stroke-flask-app\app.py", line 202, in list_patients
+    docs = list(mongo_patients.find({"user_id": current_user.id}))
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1289, in __next__
+    return self.next()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1265, in next
+    if len(self._data) or self._refresh():
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2047, in _retryable_read
+    return self._retry_internal(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2014, in _retry_internal
+    ).run()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2765, in run
+    return self._read() if self._is_read else self._write()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2910, in _read
+    self._server = self._get_server()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2858, in _get_server
+    return self._client._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff86d3269de40e31ddba4, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-11-09 02:13:13,978 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:13:13] "GET /patients HTTP/1.1" 200 -
+2025-11-09 02:13:19,485 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:13:19] "GET /patients/add HTTP/1.1" 200 -
+2025-11-09 02:14:07,361 ERROR root - Error adding patient: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff86d3269de40e31ddba4, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "C:\Users\Raza Ali\stroke-flask-app\app.py", line 231, in add_patient
+    result = mongo_patients.insert_one(patient_doc)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2082, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1968, in _retry_with_session
+    return self._retry_internal(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2014, in _retry_internal
+    ).run()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2765, in run
+    return self._read() if self._is_read else self._write()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2875, in _write
+    self._server = self._get_server()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2858, in _get_server
+    return self._client._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff86d3269de40e31ddba4, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-11-09 02:14:07,369 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:14:07] "POST /patients/add HTTP/1.1" 200 -
+2025-11-09 02:14:52,556 ERROR root - Error listing patients: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff86d3269de40e31ddba4, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "C:\Users\Raza Ali\stroke-flask-app\app.py", line 202, in list_patients
+    docs = list(mongo_patients.find({"user_id": current_user.id}))
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1289, in __next__
+    return self.next()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1265, in next
+    if len(self._data) or self._refresh():
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2047, in _retryable_read
+    return self._retry_internal(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2014, in _retry_internal
+    ).run()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2765, in run
+    return self._read() if self._is_read else self._write()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2910, in _read
+    self._server = self._get_server()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2858, in _get_server
+    return self._client._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff86d3269de40e31ddba4, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-11-09 02:14:52,560 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:14:52] "GET /patients HTTP/1.1" 200 -
+2025-11-09 02:15:26,094 ERROR root - Error listing patients: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff86d3269de40e31ddba4, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "C:\Users\Raza Ali\stroke-flask-app\app.py", line 202, in list_patients
+    docs = list(mongo_patients.find({"user_id": current_user.id}))
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1289, in __next__
+    return self.next()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1265, in next
+    if len(self._data) or self._refresh():
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2047, in _retryable_read
+    return self._retry_internal(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2014, in _retry_internal
+    ).run()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2765, in run
+    return self._read() if self._is_read else self._write()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2910, in _read
+    self._server = self._get_server()
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 2858, in _get_server
+    return self._client._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 409, in select_server
+    server = self._select_server(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 387, in _select_server
+    servers = self.select_servers(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 294, in select_servers
+    server_descriptions = self._select_servers_loop(
+  File "C:\Users\Raza Ali\stroke-flask-app\venv\lib\site-packages\pymongo\synchronous\topology.py", line 344, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 690ff86d3269de40e31ddba4, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-11-09 02:15:26,096 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:15:26] "GET /patients HTTP/1.1" 200 -
+2025-11-09 02:29:07,083 INFO werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 02:29:07,083 INFO werkzeug - [33mPress CTRL+C to quit[0m
+2025-11-09 02:29:07,083 INFO werkzeug -  * Restarting with stat
+2025-11-09 02:29:08,140 WARNING werkzeug -  * Debugger is active!
+2025-11-09 02:29:08,145 INFO werkzeug -  * Debugger PIN: 572-073-155
+2025-11-09 02:29:14,690 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:29:14] "GET /login HTTP/1.1" 200 -
+2025-11-09 02:29:21,742 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:29:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-09 02:29:51,930 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:29:51] "[35m[1mGET /patients HTTP/1.1[0m" 500 -
+2025-11-09 02:29:52,081 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:29:52] "[36mGET /patients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-09 02:29:52,083 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:29:52] "[36mGET /patients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-09 02:29:52,099 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:29:52] "GET /patients?__debugger__=yes&cmd=resource&f=console.png&s=qYuISygTGFKSKp5sTTmQ HTTP/1.1" 200 -
+2025-11-09 02:29:52,169 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 02:29:52] "[36mGET /patients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-09 03:29:21,978 INFO werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 03:29:21,979 INFO werkzeug - [33mPress CTRL+C to quit[0m
+2025-11-09 03:29:21,982 INFO werkzeug -  * Restarting with stat
+2025-11-09 03:29:23,278 WARNING werkzeug -  * Debugger is active!
+2025-11-09 03:29:23,287 INFO werkzeug -  * Debugger PIN: 861-243-412
+2025-11-09 03:29:26,980 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 03:29:26] "GET /login HTTP/1.1" 200 -
+2025-11-09 03:29:27,106 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 03:29:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-09 03:29:34,269 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 03:29:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-09 03:29:34,337 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 03:29:34] "GET /patients HTTP/1.1" 200 -
+2025-11-09 03:29:38,051 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 03:29:38] "GET /patients/add HTTP/1.1" 200 -
+2025-11-09 03:29:54,348 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 03:29:54] "[32mPOST /patients/add HTTP/1.1[0m" 302 -
+2025-11-09 03:29:54,384 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 03:29:54] "GET /patients HTTP/1.1" 200 -
+2025-11-09 04:17:59,998 INFO werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 04:17:59,998 INFO werkzeug - [33mPress CTRL+C to quit[0m
+2025-11-09 04:18:00,000 INFO werkzeug -  * Restarting with stat
+2025-11-09 04:18:01,078 WARNING werkzeug -  * Debugger is active!
+2025-11-09 04:18:01,083 INFO werkzeug -  * Debugger PIN: 861-243-412
+2025-11-09 04:18:07,401 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:18:07] "GET /login HTTP/1.1" 200 -
+2025-11-09 04:18:10,332 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:18:10] "GET /register HTTP/1.1" 200 -
+2025-11-09 04:19:24,116 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:19:24] "POST /register HTTP/1.1" 200 -
+2025-11-09 04:19:38,243 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:19:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-09 04:19:38,256 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:19:38] "GET /login HTTP/1.1" 200 -
+2025-11-09 04:19:44,499 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:19:44] "GET /register HTTP/1.1" 200 -
+2025-11-09 04:19:51,023 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:19:51] "GET /register HTTP/1.1" 200 -
+2025-11-09 04:20:08,372 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:20:08] "POST /register HTTP/1.1" 200 -
+2025-11-09 04:20:14,144 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:20:14] "GET /login HTTP/1.1" 200 -
+2025-11-09 04:20:25,415 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:20:25] "POST /login HTTP/1.1" 200 -
+2025-11-09 04:20:32,840 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:20:32] "GET /register HTTP/1.1" 200 -
+2025-11-09 04:21:02,133 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:02] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-09 04:21:02,143 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:02] "GET /login HTTP/1.1" 200 -
+2025-11-09 04:21:13,757 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-09 04:21:13,805 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:13] "GET /patients HTTP/1.1" 200 -
+2025-11-09 04:21:20,125 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:20] "GET /patients HTTP/1.1" 200 -
+2025-11-09 04:21:24,732 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:24] "GET / HTTP/1.1" 200 -
+2025-11-09 04:21:27,076 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:27] "GET /patients HTTP/1.1" 200 -
+2025-11-09 04:21:28,145 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:28] "GET / HTTP/1.1" 200 -
+2025-11-09 04:21:29,455 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:29] "GET /patients HTTP/1.1" 200 -
+2025-11-09 04:21:31,394 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:31] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-09 04:21:31,572 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:31] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-09 04:21:31,576 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:31] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-09 04:21:31,627 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:31] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=iLU6jM3QlHlJMv8lgTpY HTTP/1.1" 200 -
+2025-11-09 04:21:31,655 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:31] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-09 04:21:40,798 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:40] "GET /patients/add HTTP/1.1" 200 -
+2025-11-09 04:21:57,766 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:57] "[32mPOST /patients/add HTTP/1.1[0m" 302 -
+2025-11-09 04:21:57,776 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:21:57] "GET /patients HTTP/1.1" 200 -
+2025-11-09 04:22:03,235 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:22:03] "GET /patients/edit/691016e5476a2694acb9ccd0 HTTP/1.1" 200 -
+2025-11-09 04:22:10,354 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:22:10] "[32mPOST /patients/edit/691016e5476a2694acb9ccd0 HTTP/1.1[0m" 302 -
+2025-11-09 04:22:10,363 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:22:10] "GET /patients HTTP/1.1" 200 -
+2025-11-09 04:46:54,610 INFO werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 04:46:54,610 INFO werkzeug - [33mPress CTRL+C to quit[0m
+2025-11-09 04:46:54,612 INFO werkzeug -  * Restarting with stat
+2025-11-09 04:46:55,690 WARNING werkzeug -  * Debugger is active!
+2025-11-09 04:46:55,698 INFO werkzeug -  * Debugger PIN: 861-243-412
+2025-11-09 04:47:05,692 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:47:05] "GET /login HTTP/1.1" 200 -
+2025-11-09 04:47:12,474 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:47:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-09 04:47:12,489 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:47:12] "GET /patients HTTP/1.1" 200 -
+2025-11-09 04:47:22,625 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:47:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-09 04:47:22,635 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:47:22] "GET /login HTTP/1.1" 200 -
+2025-11-09 04:47:36,921 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:47:36] "POST /login HTTP/1.1" 200 -
+2025-11-09 04:47:45,513 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:47:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-09 04:47:45,522 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:47:45] "GET /patients HTTP/1.1" 200 -
