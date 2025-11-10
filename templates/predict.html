@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Stroke Prediction{% endblock %}
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h2 class="mb-4">Stroke Prediction</h2>
+        <form method="POST">
+            {{ form.hidden_tag() }}
+            <div class="mb-3">{{ form.gender.label(class="form-label") }} {{ form.gender(class="form-select") }}</div>
+            <div class="mb-3">{{ form.age.label(class="form-label") }} {{ form.age(class="form-control") }}</div>
+            <div class="mb-3">{{ form.hypertension.label(class="form-label") }} {{ form.hypertension(class="form-select") }}</div>
+            <div class="mb-3">{{ form.heart_disease.label(class="form-label") }} {{ form.heart_disease(class="form-select") }}</div>
+            <div class="mb-3">{{ form.ever_married.label(class="form-label") }} {{ form.ever_married(class="form-select") }}</div>
+            <div class="mb-3">{{ form.work_type.label(class="form-label") }} {{ form.work_type(class="form-select") }}</div>
+            <div class="mb-3">{{ form.Residence_type.label(class="form-label") }} {{ form.Residence_type(class="form-select") }}</div>
+            <div class="mb-3">{{ form.avg_glucose_level.label(class="form-label") }} {{ form.avg_glucose_level(class="form-control") }}</div>
+            <div class="mb-3">{{ form.bmi.label(class="form-label") }} {{ form.bmi(class="form-control") }}</div>
+            <div class="mb-3">{{ form.smoking_status.label(class="form-label") }} {{ form.smoking_status(class="form-select") }}</div>
+            <div class="text-center">{{ form.submit(class="btn btn-success w-100") }}</div>
+        </form>
+
+        {% if prediction %}
+        <div class="alert alert-info mt-4 text-center">
+            <strong>Prediction Result:</strong> {{ prediction }}
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

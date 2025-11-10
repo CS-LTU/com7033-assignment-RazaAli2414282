@@ -566,3 +566,88 @@ pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No
 2025-11-09 04:47:36,921 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:47:36] "POST /login HTTP/1.1" 200 -
 2025-11-09 04:47:45,513 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:47:45] "[32mPOST /login HTTP/1.1[0m" 302 -
 2025-11-09 04:47:45,522 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 04:47:45] "GET /patients HTTP/1.1" 200 -
+2025-11-09 23:20:12,452 INFO werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 23:20:12,454 INFO werkzeug - [33mPress CTRL+C to quit[0m
+2025-11-09 23:20:12,457 INFO werkzeug -  * Restarting with stat
+2025-11-09 23:20:13,872 WARNING werkzeug -  * Debugger is active!
+2025-11-09 23:20:13,882 INFO werkzeug -  * Debugger PIN: 861-243-412
+2025-11-09 23:20:16,319 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:20:16] "GET /patients HTTP/1.1" 200 -
+2025-11-09 23:20:27,940 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:20:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-09 23:20:27,960 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:20:27] "GET /login HTTP/1.1" 200 -
+2025-11-09 23:20:37,452 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:20:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-09 23:20:37,466 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:20:37] "GET /patients HTTP/1.1" 200 -
+2025-11-09 23:20:48,292 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:20:48] "GET / HTTP/1.1" 200 -
+2025-11-09 23:20:53,247 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:20:53] "GET /patients HTTP/1.1" 200 -
+2025-11-09 23:20:55,375 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:20:55] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-09 23:20:55,614 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:20:55] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-09 23:20:55,615 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:20:55] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-09 23:20:55,688 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:20:55] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=EnHS8Zq19jgZ6QV3v6e1 HTTP/1.1" 200 -
+2025-11-09 23:26:31,996 INFO werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 23:26:31,996 INFO werkzeug - [33mPress CTRL+C to quit[0m
+2025-11-09 23:26:31,998 INFO werkzeug -  * Restarting with stat
+2025-11-09 23:26:33,485 WARNING werkzeug -  * Debugger is active!
+2025-11-09 23:26:33,492 INFO werkzeug -  * Debugger PIN: 861-243-412
+2025-11-09 23:26:37,692 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:26:37] "GET /login HTTP/1.1" 200 -
+2025-11-09 23:26:47,885 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:26:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-09 23:26:47,921 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:26:47] "GET /patients HTTP/1.1" 200 -
+2025-11-09 23:26:51,879 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:26:51] "GET /predict HTTP/1.1" 200 -
+2025-11-09 23:27:19,241 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:27:19] "POST /predict HTTP/1.1" 200 -
+2025-11-09 23:27:29,570 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:27:29] "GET /predict HTTP/1.1" 200 -
+2025-11-09 23:27:31,017 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:27:31] "GET /patients HTTP/1.1" 200 -
+2025-11-09 23:27:33,801 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:27:33] "GET / HTTP/1.1" 200 -
+2025-11-09 23:27:35,752 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:27:35] "GET /patients HTTP/1.1" 200 -
+2025-11-09 23:51:01,430 INFO werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 23:51:01,430 INFO werkzeug - [33mPress CTRL+C to quit[0m
+2025-11-09 23:51:01,432 INFO werkzeug -  * Restarting with stat
+2025-11-09 23:51:05,419 WARNING werkzeug -  * Debugger is active!
+2025-11-09 23:51:05,426 INFO werkzeug -  * Debugger PIN: 861-243-412
+2025-11-09 23:51:05,689 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:51:05] "GET /patients HTTP/1.1" 200 -
+2025-11-09 23:51:11,721 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:51:11] "GET /login HTTP/1.1" 200 -
+2025-11-09 23:51:20,078 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:51:20] "POST /login HTTP/1.1" 200 -
+2025-11-09 23:51:26,754 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:51:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-09 23:51:26,768 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:51:26] "GET /patients HTTP/1.1" 200 -
+2025-11-09 23:51:29,747 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:51:29] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-09 23:51:29,983 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:51:29] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-09 23:51:29,986 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:51:29] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-09 23:51:30,051 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:51:30] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=CGJQMq11TtBtK3OmPRWq HTTP/1.1" 200 -
+2025-11-09 23:51:30,088 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:51:30] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-09 23:57:33,717 INFO werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 23:57:33,717 INFO werkzeug - [33mPress CTRL+C to quit[0m
+2025-11-09 23:57:33,720 INFO werkzeug -  * Restarting with stat
+2025-11-09 23:57:37,945 WARNING werkzeug -  * Debugger is active!
+2025-11-09 23:57:37,951 INFO werkzeug -  * Debugger PIN: 861-243-412
+2025-11-09 23:57:38,168 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:57:38] "GET /login HTTP/1.1" 200 -
+2025-11-09 23:57:50,623 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:57:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-09 23:57:50,656 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:57:50] "GET /patients HTTP/1.1" 200 -
+2025-11-09 23:57:53,884 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:57:53] "GET /predict HTTP/1.1" 200 -
+2025-11-09 23:58:12,863 INFO werkzeug - 127.0.0.1 - - [09/Nov/2025 23:58:12] "POST /predict HTTP/1.1" 200 -
+2025-11-10 00:19:51,953 INFO werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-10 00:19:51,953 INFO werkzeug - [33mPress CTRL+C to quit[0m
+2025-11-10 00:19:51,955 INFO werkzeug -  * Restarting with stat
+2025-11-10 00:19:55,785 WARNING werkzeug -  * Debugger is active!
+2025-11-10 00:19:55,792 INFO werkzeug -  * Debugger PIN: 861-243-412
+2025-11-10 00:19:56,004 INFO werkzeug - 127.0.0.1 - - [10/Nov/2025 00:19:56] "GET /predict HTTP/1.1" 200 -
+2025-11-10 00:19:56,697 INFO werkzeug - 127.0.0.1 - - [10/Nov/2025 00:19:56] "GET /patients HTTP/1.1" 200 -
+2025-11-10 00:19:56,867 INFO werkzeug - 127.0.0.1 - - [10/Nov/2025 00:19:56] "GET /login HTTP/1.1" 200 -
+2025-11-10 00:20:08,219 INFO werkzeug - 127.0.0.1 - - [10/Nov/2025 00:20:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-10 00:20:08,825 INFO werkzeug - 127.0.0.1 - - [10/Nov/2025 00:20:08] "GET /patients HTTP/1.1" 200 -
+2025-11-10 00:22:22,368 INFO werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-10 00:22:22,368 INFO werkzeug - [33mPress CTRL+C to quit[0m
+2025-11-10 00:22:22,371 INFO werkzeug -  * Restarting with stat
+2025-11-10 00:22:26,721 WARNING werkzeug -  * Debugger is active!
+2025-11-10 00:22:26,729 INFO werkzeug -  * Debugger PIN: 861-243-412
+2025-11-10 00:22:27,595 INFO werkzeug - 127.0.0.1 - - [10/Nov/2025 00:22:27] "GET /login HTTP/1.1" 200 -
+2025-11-10 00:22:27,748 INFO werkzeug - 127.0.0.1 - - [10/Nov/2025 00:22:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-10 00:22:42,987 INFO werkzeug - 127.0.0.1 - - [10/Nov/2025 00:22:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-10 00:22:43,720 INFO werkzeug - 127.0.0.1 - - [10/Nov/2025 00:22:43] "GET /patients HTTP/1.1" 200 -
+2025-11-10 00:25:49,665 INFO werkzeug - 127.0.0.1 - - [10/Nov/2025 00:25:49] "GET /patients HTTP/1.1" 200 -
+2025-11-10 00:25:51,807 INFO werkzeug - 127.0.0.1 - - [10/Nov/2025 00:25:51] "GET / HTTP/1.1" 200 -
+2025-11-10 00:25:53,021 INFO werkzeug - 127.0.0.1 - - [10/Nov/2025 00:25:53] "GET /predict HTTP/1.1" 200 -
+2025-11-10 00:25:56,578 INFO werkzeug - 127.0.0.1 - - [10/Nov/2025 00:25:56] "GET / HTTP/1.1" 200 -
+2025-11-10 00:30:33,519 INFO werkzeug - 127.0.0.1 - - [10/Nov/2025 00:30:33] "GET /patients HTTP/1.1" 200 -

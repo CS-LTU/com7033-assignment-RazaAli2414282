@@ -1,12 +1,15 @@
-# train_model.py
+# train_model.py (updated)
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
-import joblib
+import joblib, os
+
+# Create models folder if not exist
+os.makedirs("models", exist_ok=True)
 
 # Load dataset
-df = pd.read_csv('healthcare-dataset-stroke-data.csv')  # place the CSV in project root
+df = pd.read_csv('healthcare-dataset-stroke-data.csv')
 
 # Drop rows with missing values
 df = df.dropna()
@@ -39,11 +42,11 @@ model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 
 # Save model and encoders
-joblib.dump(model, 'stroke_model.pkl')
-joblib.dump(le_gender, 'le_gender.pkl')
-joblib.dump(le_ever_married, 'le_ever_married.pkl')
-joblib.dump(le_work_type, 'le_work_type.pkl')
-joblib.dump(le_residence, 'le_residence.pkl')
-joblib.dump(le_smoking, 'le_smoking.pkl')
+joblib.dump(model, 'models/stroke_model.pkl')
+joblib.dump(le_gender, 'models/le_gender.pkl')
+joblib.dump(le_ever_married, 'models/le_ever_married.pkl')
+joblib.dump(le_work_type, 'models/le_work_type.pkl')
+joblib.dump(le_residence, 'models/le_residence.pkl')
+joblib.dump(le_smoking, 'models/le_smoking.pkl')
 
-print("Model and encoders saved successfully!")
+print("✅ Model and encoders saved successfully in /models folder!")
